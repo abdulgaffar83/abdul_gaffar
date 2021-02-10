@@ -4,23 +4,12 @@ import "fmt"
 
 func main() {
 
-//var name string
-//var age int
-//var result bloat32
-//var isFound bool
+fmt.Println("Enter your name & age:")
+var name string
+var age int
 
-
-var chr rune
-chr = 'F'
-fmt.Println(chr)
-fmt.Printf("%c", chr)
-
-//fmt.Println(isFound)
-//fmt.Println(true && true)
-//fmt.Println(true && false)
-//fmt.Println(true || true)
-//fmt.Println(true || false)
-//fmt.Println(!true)
+fmt.Scanf("%s %d", &name, &age)
+fmt.Printf("your name %s & age is %d", name, age)
 
 }
 
